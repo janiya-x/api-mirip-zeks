@@ -41,22 +41,22 @@ _ = require('lodash')
 loghandler = {
 	noapikey:{
 		status: 403,
-        message: 'Masukkan parameter apikey',
+        message: 'Enter Apikey',
         maintanied_by: `${creator}`
     },
     error: {
         status: 503,
-        message: 'Service Unavaible, Sedang dalam perbaikan',
+        message: 'Service Unavaible, Try again Later',
         maintanied_by: `${creator}`
     },
     apikey: {
     	status: 403,
-    	message: 'Forbiden, Invalid apikey, hubungi saya di whatsapp untuk mendapatkan apikey anda',
+    	message: 'Forbiden, Invalid apikey',
     	maintanied_by: `${creator}`
     },
     noturl: {
     	status: 403,
-    	message: 'Forbiden, Invlid url, masukkan parameter url',
+    	message: 'Forbiden,Enter Valid url',
     	maintanied_by: `${creator}`,
     }
 }
