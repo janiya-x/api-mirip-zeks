@@ -51,8 +51,8 @@ txt += "<p><b>Cookies</b>: " + navigator.cookieEnabled + "</p>";
 txt += "<p><b>Platform</b>: " + navigator.platform + "</p>";
 txt += "<p><b>User Agent</b>: <br>" + navigator.userAgent + "</p>";
 
-myMonths = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
-myDays = ['Minggu','Senin','Selasa','Rabu','Kamis','Jum at','Sabtu'];
+myMonths = ["January","February","March","April","May","Juny","July","August","September","October","November","December"];
+myDays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 var tgl = new Date();
 var day = tgl.getDate()
 bulan = tgl.getMonth()
