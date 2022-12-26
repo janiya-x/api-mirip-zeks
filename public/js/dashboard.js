@@ -71,14 +71,14 @@ document.getElementById("tanggal").innerHTML = tanggal;
 Sayings = "";
 			var now = new Date();
 			var hours = now.getHours();
-			if (hours >= 17 || hours <= 2){
-			Sayings += "<span class='text-light'>Selamat malam 🌚</span>"
-			} else if (hours >= 3 && hours <= 10){
-			Sayings += "<span class='text-info'>Selamat pagi 🌝</span>"
-			} else if (hours >= 11 && hours <= 14){
-			Sayings += "<span class='text-warning'>Selamat Siang 🌞</span>"
-			} else if (hours >= 13 && hours <= 16){
-			Sayings += "<span class='text-success'>Selamat Sore 🌜</span>"
+			if (hours >= 1 || hours <= 10 ){
+			Sayings += "<span class='text-light'>Good Morning </span>"
+			} else if (hours >= 11 && hours <= 13 ){
+			Sayings += "<span class='text-info'>Good Day</span>"
+			} else if (hours >= 14  && hours <= 16 ){
+			Sayings += "<span class='text-warning'>Good Evening</span>"
+			} else if (hours >= 17 && hours <= 24 ){
+			Sayings += "<span class='text-success'>Good Night</span>"
 			}
 document.getElementById("Ucapan").innerHTML = Sayings;
 
