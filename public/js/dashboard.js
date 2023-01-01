@@ -72,7 +72,7 @@ Sayings = "";
 			var now = new Date();
 			var hours = now.getHours();
 			if (hours >= 1 || hours <= 10 ){
-			Sayings += "<span class='text-light'>Good Morning </span>"
+			Sayings += "<span class='text-light'>Have a nice day </span>"
 			} else if (hours >= 11 && hours <= 13 ){
 			Sayings += "<span class='text-info'>Good Day</span>"
 			} else if (hours >= 14  && hours <= 16 ){
@@ -109,7 +109,7 @@ var x = setInterval(function() {
   + minutes + " Min " + seconds + " Sec ";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("IdulAdha").innerHTML = "Selamat Hari Raya Idul Adha ";
+    document.getElementById("IdulAdha").innerHTML = "Happy New Year ! 2022";
   }
 }, 1000);
 
