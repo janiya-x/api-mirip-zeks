@@ -1075,7 +1075,7 @@ router.get('/other/github-stalk', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zeeone',
+             	author: 'darkalpha',
                  result
              })
          })
