@@ -109,7 +109,7 @@ var x = setInterval(function() {
   + minutes + " Min " + seconds + " Sec ";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("IdulAdha").innerHTML = "Happy New Year ! 2022";
+    document.getElementById("IdulAdha").innerHTML = "Happy New Year ! 2023";
   }
 }, 1000);
 
