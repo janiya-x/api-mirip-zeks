@@ -1,4 +1,4 @@
-# ```Alphabot-Api```
+# ```janiya-Api```
 <p align="center">
 <a href="https://github.com/zeeone-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/zeeone-ofc?color=red&style=flat-square"></a>
 <a href="https://github.com/zeeone-ofc/api-mirip-zeks/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zeeone-ofc/api-mirip-zeks?color=blue&style=flat-square"></a>
